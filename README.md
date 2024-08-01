@@ -1,6 +1,6 @@
 # Hypervisor 101 in Rust
 The materials of the "Hypervisor 101 in Rust" class held at [Global Cybersecurity Camp 2023 Singapore](https://gcc.ac/gcc_2023/). This repository contains a fuzzing hypervisor for UEFI on Intel/AMD processors, lecture and hands-on exercise materials, and sample corpus and target files.
-test
+
 
 Read the course at https://tandasat.github.io/Hypervisor-101-in-Rust/
 
