@@ -144,7 +144,7 @@ fn print_image_info() {
 #[derive(Debug, Clone, Copy)]
 #[repr(C, align(4096))]
 struct Page([u8; BASE_PAGE_SIZE]);
-const _: () = assert!(core::mem::size_of::<Page>() == 0x1000);
+const _: () = assert!(size_of::<Page>() == 0x1000);
 
 impl Page {
     fn new() -> Self {
